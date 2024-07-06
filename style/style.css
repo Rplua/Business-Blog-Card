@@ -8,10 +8,9 @@ body{
 #card {
     display: flex;
     align-items: center; /* Centra verticalmente */
-    justify-content: center; /* Centra horizontalmente */
+
     flex-direction: column;
-    height: 100vh; /* Asegúrate de que el contenedor tenga una altura suficiente */
-   
+    margin-top: 124px; /* Asegúrate de que el contenedor tenga una altura suficiente */
 }
 
 #card-2 {
@@ -19,7 +18,7 @@ body{
     flex-direction: column;
     align-items: center;
     width: 418px;
-    height:505px;
+    height:510px;
     border-radius: 1rem;
     background-color: #FFFFFF;
 }
@@ -39,7 +38,7 @@ body{
 }
 
 #text{
-    margin: 0 32px 0 32px;
+    margin: 10px 32px 0 32px;
 }
 #text h1{
     font-family:"Popins", sans-serif ;
